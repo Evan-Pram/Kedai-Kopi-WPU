@@ -14,3 +14,7 @@ document.addEventListener('click', function(e){
         navbarNav.classList.remove('active');
     }
 })
+
+document.querySelector('.container-menu-card').addEventListener("mouseover", function(e){
+    document.querySelector('.container-menu-card').classList.toggle('show');
+})
